@@ -1,0 +1,145 @@
+/* Estilos para el fondo principal */
+#Main {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Estilos para el contenedor principal */
+#Container {
+    background-color: rgb(20, 20, 21);
+}
+
+/* Estilos para el encabezado */
+#header {
+    background-color: rgb(32, 32, 32);
+}
+
+/* Estilos para el marco de búsqueda */
+#frame_search {
+    border: 1px solid #747474;
+    border-radius: 3px;
+    background-color: rgb(49, 49, 49);
+    margin-left: 10px;
+}
+
+#frame_search:hover,
+#frame_date:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+#frame_search:pressed {
+    background-color: rgb(49, 49, 49);
+}
+
+/* Estilos para el campo de entrada de búsqueda */
+#search_input {
+    color: #fff;
+    background-color: rgb(49, 49, 49);
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Estilos para el botón de búsqueda */
+#btn_search {
+    border: none;
+    background: none;
+}
+
+/* Estilos para las etiquetas de texto */
+#lbl_logo,
+#lbl_description,
+#lbl_excel_disponibles,
+#lbl_file_sql {
+    color: white;
+}
+
+/* Estilos para el botón del icono del logo */
+#btn_icon_logo {
+    background-color: none;
+    border: none;
+}
+
+/* Estilos para las tarjetas de archivos */
+#card_file_sql,
+#card_file_xls,
+#content_right,
+#footer {
+    background-color: rgb(32, 32, 32);
+}
+
+/* Estilos para el botón de conversión de SQL */
+#btn_convert_sql {
+    background-color: #0C7238;
+    color: white;
+    border: none;
+}
+
+#btn_convert_sql:hover {
+    background-color: #129652;
+    color: white;
+    border: none;
+}
+
+/* Estilos para QListWidget */
+QListWidget {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+QListWidget::item {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    padding: 3px;
+    border: none;
+}
+
+QListWidget::item:selected {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+QListWidget::item:hover {
+    background-color: #444444;
+}
+
+/* Estilos para QTableView */
+QTableView {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    gridline-color: #555555;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QTableView::item {
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #555555;
+}
+
+QTableView::item:selected {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+QHeaderView::section {
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    padding: 4px;
+    border: 1px solid #555555;
+}
+
+QHeaderView::section:horizontal {
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+}
+
+QHeaderView::section:vertical {
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555;
+}
