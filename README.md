@@ -24,7 +24,7 @@ Esta es una captura de pantalla de la aplicación en funcionamiento. Muestra la 
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/your_username/migrexel.git
+   git clone https://github.com/fito-05-23/migrexel.git
    cd migrexel
 
 2. **Crear un Entorno Virtual**:
